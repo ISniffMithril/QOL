@@ -29,19 +29,18 @@ if first_login == 0: #Изменить потом
 
     ####                            ПОТОМ УБРАТЬ                                                        #####
 
-    i=1
-    if i == 0:
-       #Загрузки
-       os.mkdir("Downloads")
-       os.makedirs("Downloads/Videos")
-       os.makedirs("Downloads/Images")
-       os.makedirs("Downloads/Gifs")
-       os.makedirs("Downloads/Text")
+    
+    #Загрузки
+    os.mkdir("Downloads")
+    os.makedirs("Downloads/Videos")
+    os.makedirs("Downloads/Images")
+    os.makedirs("Downloads/Gifs")
+    os.makedirs("Downloads/Text")
 
-       #Настройки и конфиг
-       os.mkdir("Settings") 
-       os.mkdir("Settings/User")
-       os.mkdir("Settings/Config")
+    #Настройки и конфиг
+    os.mkdir("Settings") 
+    os.mkdir("Settings/User")
+    os.mkdir("Settings/Config")
     
     
 
